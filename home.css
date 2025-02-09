@@ -1,0 +1,18 @@
+.main-hero{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.wall{
+    width: 100px;
+    height: 400px;
+    background: brown;
+    position: absolute;
+    left: 200px;
+    top: 300px;
+
+}
