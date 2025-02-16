@@ -10,7 +10,7 @@
 .wall{
     width: 100px;
     height: 400px;
-    background: brown;
+    background: rgb(38, 161, 24);
     position: absolute;
     left: 200px;
     top: 300px;
