@@ -4,7 +4,8 @@ const game = document.getElementById("game");
 const hero = document.getElementById("main-hero")
 function check_collision(){
 blocks.forEach(block =>{
-    console.log(parseInt(block.style.left));
+    console.log(parseInt(block.style.height));
+    console.log(block)
     let right = parseInt(block.style.left) + parseInt(block.style.width);
     let left = parseInt(block.style.left);
     let top = parseInt(block.style.top);
@@ -62,3 +63,4 @@ blocks.forEach(block =>{
     console.log(block);
 
 })
+
